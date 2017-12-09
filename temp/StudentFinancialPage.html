@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Student Financial</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/justified-nav.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="#"">
+                Application <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li><a href="#">Resource Reservation</a></li>
+                <li><a href="#">Monitoring</a></li>
+                <li><a href="#">Graduation</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Enrollment</a></li>
+            <li class="dropdown">
+              <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="#"">
+                Academic <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li><a href="#">TimeTable</a></li>
+                <li><a href="#">Exam Slip</a></li>
+                <li><a href="#">Result Slip</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="#">Finance</a></li>
+            <li><a href="#">Profile</a></li>
+          </ul>
+        </nav>
+      </div><!-- masthead -->
+      <br><br>
+      <div id="accountsummary" class="container"><h1> Account Summary</h1></div>
+
+      <br>
+      <div class="finance">
+       <select>
+        <option value="volvo">RM</option>
+        <option value="saab">USD</option>
+        <option value="opel">SGD</option>
+      </select>
+      <hr>  
+
+        <table style="width:100%">
+          <tr>
+            <th class="col-md-6">Subject</th>
+            <th class="col-md-6">Ammount</th> 
+          </tr>
+          <tr>
+            <td  class="col-md-6">Resource Fees</td>
+            <td  class="col-md-6">10000</td>
+          </tr>
+          <tr>
+            <td  class="col-md-6">Subject Fees</td>
+            <td  class="col-md-6">5790</td>
+          </tr>
+          <tr>
+            <td  class="col-md-6">Others</td>
+            <td  class="col-md-6">80</td>
+          </tr>
+        </table>
+        <hr>
+        <table style="width:100%">
+          <tr>
+            <td  class="col-md-6">Total Due</td>
+            <td  class="col-md-6">15870</td>
+          </tr> 
+          <tr>
+            <td  class="col-md-6">Due Now</td>
+            <td  class="col-md-6">10000</td>
+          </tr>
+        </table>
+      </div class="payment"><!--finance-->
+
+
+
+      <div class="payment">
+        <div id="paymenthead"><h4><b>Payment</b></h4></div><!--paymenthead-->
+        <hr>
+        <form id="paymenttab">
+          <b>Credit Card Number:</b><br>
+          <input type="text" name="CreditCardNumber" ><br>
+          <b>Ammount:</b><br>
+          <input type="text" name="Ammount"> <br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div><!--payment-->
+      
+
+
+
+      <!-- Site footer -->
+      <footer style=" clear: left" class="footer">
+        <p>&copy; Easy A Company, Inc.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files 
+          as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

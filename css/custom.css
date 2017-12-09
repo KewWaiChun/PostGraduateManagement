@@ -1,0 +1,354 @@
+#output {
+    background-color: #c5edf3;
+    color: #463c39;
+    font-size: 17px;
+    padding: 30px 30px;
+    width: 40%;
+    border: 2px solid #009688;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+#newPublish {
+    background-color: #c5edf3;
+    color: #463c39;
+    font-size: 17px;
+    padding: 30px 30px;
+    width: 40%;
+    border: 2px solid #009688;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+.box {
+    background-color: #f7f7f7;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 40px 60px;
+}
+#details_info {
+    background-color: #f7f7f7;
+    color: #463c39;
+    font-size: 17px;
+    padding: 30px 30px;
+    width: 40%;
+    border: 1px solid #cccccc;
+    font-family: sans-serif;
+    line-height: 1.8;
+    margin-left: 90px;
+}
+.box3 {
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 60px;
+    padding: 40px 50px;
+    background-color: gainsboro;
+}
+.box11 {
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 60px;
+    padding: 40px 50px;
+    background-color: gainsboro;
+    line-height: 2.5;
+}
+.web_design_box {
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 40px 50px;
+    background-color: #d9edf7;
+    box-shadow: 3px 5px 10px #318f86;
+}
+.hotel_reserve_box {
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 40px 50px;
+    background-color: #c6badc;
+    box-shadow: 3px 5px 10px #7527b0;
+}
+.online_food_delivery_box {
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 20px 40px;
+    background-color: #d4c0b9;
+    box-shadow: 3px 5px 10px #714c4a;
+}
+.result_box {
+    margin-top: 15%;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 20px 40px;
+    background-color: #d4c0b9;
+    width:100%;
+}
+.result_box_text {
+    color: #232222;
+    font-size: 20px;
+    text-align: center;
+    padding-top:10px;
+}
+.result_box_text span {
+    color: #614136;
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    text-align: center;
+    float:left;
+    margin-top: 20px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.profileContainer{
+    background-color: yellow;
+}
+
+#introduction{
+    background-color: blue;
+    width: 75%;
+    float: right;
+    margin-top: 20px;
+}
+
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
+}
+
+#accountsummary{
+    border-bottom: 1px solid #000
+}
+
+.finance{
+    border-radius: 25px;
+    border: 2px solid #cce6ff;
+    padding: 20px; 
+    width: 300px;
+    height: 300px; 
+    float:left;
+    margin-bottom: 5px;
+}
+
+.payment{
+    float:left;
+    border-radius: 25px;
+    border: 2px solid #cce6ff;
+    margin-left: 15px;
+    width:823px;
+    height: 300px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+#paymenthead{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paymenttab{
+    margin-left: 120px;
+    background-color: yellow;
+}
+
+.checkbox-grid li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.horizontalline{
+        padding-bottom: 10px;
+    border-bottom: 2px solid blue;
+
+}
+
+#tableformat{
+    background-color: yellow;
+
+}
+
+#loginContainer{
+    width:350px;
+    height: 160px;
+    background-color:#33FFD7;
+    border-radius: 25px;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding-top: 9px;
+}
+
+#wholepage{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -170px;
+    margin-left: -300px;
+    text-align: center;
+}
+
+#logintab{
+    text-align: center;
+}
+
+.ridgeborder{
+    border-style: ridge;
+    padding: 1%;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-menu {
+  width: 100%; 
+}
+
+.btn{
+ width: 100%;
+}
+
+#floatleft{
+    width: 50%;
+    float: left;
+
+    margin-bottom:5%;
+
+}
+
+#floatright{
+    width: 50%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.managementBox
+{
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 40px 50px;
+    border-radius: 25px;
+    border: 2px solid #D7F1EF;
+}
+
+#announcementTitleBox
+{
+    width:100%;
+}
+
+#announcementDetailBox
+{
+    width:100%;
+    height: 200px;
+}
+
